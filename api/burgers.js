@@ -1,5 +1,6 @@
 export default function handler(req, res){
-    const burgers =[
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    const burgers = [
         {
             name: "New Bacon-ings Burger",
             episode: "Season 1, Episode 1: Human Flesh",

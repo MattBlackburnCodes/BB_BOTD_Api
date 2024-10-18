@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "Matt Blackburn <contact@mattblackburncodes.com>",
   "license": "MBC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bb_botd_api": "file:"
+  }
 }
