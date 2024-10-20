@@ -1,3 +1,4 @@
+import NBB from '../images/New Bacon-ing Burger.png';
 export default function handler(req, res) {
   // Enable CORS for all domains
   res.setHeader('Access-Control-Allow-Origin', '*');
