@@ -1,3 +1,5 @@
+import NBB from `../images/New Bacon-ing Burger.png;`
+
 export default function handler(req, res){
     res.setHeader('Access-Control-Allow-Origin', '*');
     const burgers = [
@@ -23,7 +25,7 @@ export default function handler(req, res){
               "Shape the beef into 4 patties. Season with salt and pepper, cook them on a skillet, and top with cheddar cheese when almost done.",
               "Assemble your burger: bottom bun, lettuce, cheeseburger, tomato, bacon slices, onion, top bun. Serve with bacon-y fries."
             ],
-            image: "https://via.placeholder.com/400x300?text=New+Bacon-ings+Burger"
+            image: NBB
           }
     ];
     res.status(200).json(burgers);
