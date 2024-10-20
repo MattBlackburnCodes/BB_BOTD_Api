@@ -1,4 +1,4 @@
-import NBB from '../images/New Bacon-ing Burger.png';
+//import NBB from '../images/New Bacon-ing Burger.png';
 export default function handler(req, res) {
   // Enable CORS for all domains
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -34,7 +34,7 @@ export default function handler(req, res) {
             "Shape the beef into 4 patties. Season with salt and pepper, cook them on a skillet, and top with cheddar cheese.",
             "Assemble your burger: bottom bun, lettuce, cheeseburger, tomato, bacon slices, onion, top bun. Serve with bacon-y fries."
           ],
-          image: NBB
+          image: '../images/New Bacon-ing Burger.png'
       }
   ];
 
