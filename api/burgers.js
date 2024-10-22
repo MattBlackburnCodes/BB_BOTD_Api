@@ -34,7 +34,9 @@ export default function handler(req, res) {
             "Shape the beef into 4 patties. Season with salt and pepper, cook them on a skillet, and top with cheddar cheese.",
             "Assemble your burger: bottom bun, lettuce, cheeseburger, tomato, bacon slices, onion, top bun. Serve with bacon-y fries."
           ],
-          image: 'https://res.cloudinary.com/dxbdiw4c7/image/upload/v1729401651/New_Bacon-ing_Burger_fonilp.png'
+          image: 'https://res.cloudinary.com/dxbdiw4c7/image/upload/v1729401651/New_Bacon-ing_Burger_fonilp.png',
+          servingSize: 4
+
       }
   ];
 
