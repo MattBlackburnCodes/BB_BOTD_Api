@@ -60,6 +60,31 @@ export default function handler(req, res) {
         image: 'https://res.cloudinary.com/dxbdiw4c7/image/upload/v1729560932/lb0dmrxonsn5lbj6s09y.png',
         servingSize: 4      
       },
+      {
+        name: "A Good Manchego is Hard to Find Burger",
+        episode: "Season 5, Episode 10: Late Afternoon in the Garden of Bob and Louise",
+        description: "A burger topped with caramelized shallots, Manchego cheese, and a generous helping of fig jam. Fig jam! Banned. Banned!! Remember? From the show?",
+        servings: 4,
+        ingredients: [
+          "2 tablespoons butter",
+          "6 shallots, peeled and thinly sliced",
+          "1 pound ground beef",
+          "1 small block Manchego cheese, sliced",
+          "Fig jam",
+          "4 buns",
+          "Arugula or Boston lettuce"
+        ],
+        steps: [
+
+          "Melt the butter in a wide frying pan over medium-low heat. Add the shallots and stir to coat. Cook over fairly low heat, stirring occasionally, until the shallots are very soft and a deep, sticky golden-brown, about 15 to 20 minutes.",
+          "Form 4 patties, season both sides with salt and pepper, and cook the burgers, melting a few slices of Manchego over each burger. Cov        steps: [er the pan or tent with foil to help the cheese melt.",
+          "Build your burger: Bottom bun, then the cheeseburger, arugula, and sautéed shallots. Spread the fig jam on the top bun. Spread happiness in your face."
+        ],
+        image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730076992/A_Good_Manchego_is_Hard_to_Find_Burger_keup9i.png",
+        servingSize: 4
+      
+      
+  }
       
   ];
 
