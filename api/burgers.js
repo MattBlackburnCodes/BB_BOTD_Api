@@ -154,6 +154,55 @@ export default function handler(req, res) {
         ],
         image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730252390/Poblano_Picasso_Burger_firekz.png",
         servingSize: 4
+      },
+      {
+        name: "It's Fun to Eat at the Rye-MCA Burger",
+        episode: "Season 2, Episode 6: Dr. Yap",
+        description: "All-beef patties on rye bread topped with cheddar cheese, brown mustard, caramelized onions, and horseradish.",
+        ingredients: [
+          "1 tablespoon butter",
+          "1/2 medium onion, sliced",
+          "1 pound ground beef",
+          "Thickly sliced cheddar cheese, up to 1/2-inch thick",
+          "Sliced rye bread",
+          "Boston or green leaf lettuce",
+          "4 teaspoons prepared horseradish (or 1 avocado, sliced)",
+          "Brown mustard"
+        ],
+        steps: [
+          "Melt the butter in a wide frying pan over medium-low heat. Add the onion and stir to coat. Cook over low heat, stirring occasionally, until the onions are soft and a sticky golden-brown, about 20 to 30 minutes.",
+          "Make patties, season both sides with salt and pepper, and cook them as you normally would. Just before they finish cooking, lay a thick slice of cheddar cheese over each patty, and cover or tent to help the cheese melt.",
+          "Build your burger: Rye bread, lettuce, cheeseburger, caramelized onions, a spoonful of horseradish (or a couple of slices of avocado), and another piece of rye bread with brown mustard slathered all over it."
+        ],
+        image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730338001/It_s_Fun_to_Eat_at_the_Rye-MCA_Burger_oaugu3.png",
+        servingSize: 4
+      },
+      {
+        name: "If Looks Could Kale Burger",
+        episode: "Season 2, Episode 7: Moody Foodie",
+        description: "An all-beef patty topped with Mediterranean-style orzo salad and crispy kale chips.",
+        ingredients: [
+          "3 1/2 cups low-sodium chicken stock",
+          "3/4 cup orzo",
+          "4 whole wheat or whole-grain buns",
+          "8 bunches kale, thick stems removed",
+          "Olive oil",
+          "2 sprigs fresh rosemary",
+          "4 cloves garlic, minced",
+          "1 pound ground beef",
+          "2 tablespoons red wine vinegar",
+          "Kosher salt and pepper"
+        ],
+        steps: [
+          "Bring chicken stock to a boil in a medium saucepan, add orzo, and cook for 10 minutes. Drain thoroughly and transfer to a large mixing bowl.",
+          "Wash and dry the kale leaves thoroughly. Sprinkle lightly with salt.",
+          "Bake for 10 minutes, flip, rotate, and bake for an additional 5 minutes until crispy but not burnt. Set aside.",
+          "Preheat your oven to 300°F. Add the orzo salad ingredients: rosemary, olive oil, minced garlic, red wine vinegar, salt, and pepper. Mix well.",
+          "Make the burgers: Form 4 patties, season both sides with salt and pepper, and cook them as you normally would.",
+          "Build your burger: Bottom bun, orzo salad, cheeseburger, crispy kale, top bun."
+        ],
+        image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730338000/If_Looks_Could_Kale_Burger_n2oyke.png",
+        servingSize: 4
       }
       
       
