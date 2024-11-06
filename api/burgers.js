@@ -154,34 +154,33 @@ export default function handler(req, res) {
       image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730338001/It_s_Fun_to_Eat_at_the_Rye-MCA_Burger_oaugu3.png",
       servingSize: 4
     },
-    {
-      {
-        name: "A Good Manchego is Hard to Find Burger",
-        episode: "Season 5, Episode 10: Late Afternoon in the Garden of Bob and Louise",
-        description: "A savory beef burger topped with melted Manchego cheese, caramelized shallots, and a generous layer of sweet fig jam, all nestled in a soft bun with fresh arugula for a slightly peppery bite.",
-        ingredients: [
-          "1 lb ground beef",
-          "1/2 cup fig jam",
-          "1/4 lb Manchego cheese, sliced",
-          "6 shallots, thinly sliced",
-          "4 buns",
-          "Arugula",
-          "Salt and pepper",
-          "2 tbsp olive oil"
-        ],
-        steps: [
-          "Heat olive oil in a skillet over medium heat. Add sliced shallots and cook, stirring occasionally, until they are golden brown and caramelized, about 15-20 minutes. Remove from heat and set aside.",
-          "While the shallots are cooking, form the ground beef into four equal patties. Season both sides with salt and pepper.",
-          "In the same skillet, cook the patties to your desired doneness, about 4-5 minutes per side. Place a slice of Manchego cheese on each patty during the last minute of cooking to let it melt.",
-          "Lightly toast the buns in a toaster or on a grill pan until golden brown.",
-          "To assemble the burger, spread a generous layer of fig jam on the top half of each bun. On the bottom half, layer arugula leaves, a cooked patty with melted Manchego, and caramelized shallots. Close with the top bun.",
-          "Serve immediately and enjoy the sweet and savory flavors in every bite!"
-        ],
-        image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730076992/A_Good_Manchego_is_Hard_to_Find_Burger_keup9i.png",
-        servingSize: 4
-      }
-      
+    {      
+      name: "A Good Manchego is Hard to Find Burger",
+      episode: "Season 5, Episode 10: Late Afternoon in the Garden of Bob and Louise",
+      description: "A savory beef burger topped with melted Manchego cheese, caramelized shallots, and a generous layer of sweet fig jam, all nestled in a soft bun with fresh arugula for a slightly peppery bite.",
+      ingredients: [
+        "1 lb ground beef",
+        "1/2 cup fig jam",
+        "1/4 lb Manchego cheese, sliced",
+        "6 shallots, thinly sliced",
+        "4 buns",
+        "Arugula",
+        "Salt and pepper",
+        "2 tbsp olive oil"
+      ],
+      steps: [
+        "Heat olive oil in a skillet over medium heat. Add sliced shallots and cook, stirring occasionally, until they are golden brown and caramelized, about 15-20 minutes. Remove from heat and set aside.",
+        "While the shallots are cooking, form the ground beef into four equal patties. Season both sides with salt and pepper.",
+        "In the same skillet, cook the patties to your desired doneness, about 4-5 minutes per side. Place a slice of Manchego cheese on each patty during the last minute of cooking to let it melt.",
+        "Lightly toast the buns in a toaster or on a grill pan until golden brown.",
+        "To assemble the burger, spread a generous layer of fig jam on the top half of each bun. On the bottom half, layer arugula leaves, a cooked patty with melted Manchego, and caramelized shallots. Close with the top bun.",
+        "Serve immediately and enjoy the sweet and savory flavors in every bite!"
+      ],
+      image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730076992/A_Good_Manchego_is_Hard_to_Find_Burger_keup9i.png",
+      servingSize: 4
     }
+      
+    
   ];
 
   res.status(200).json(burgers);
