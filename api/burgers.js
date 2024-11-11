@@ -178,7 +178,58 @@ export default function handler(req, res) {
       ],
       image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1730076992/A_Good_Manchego_is_Hard_to_Find_Burger_keup9i.png",
       servingSize: 4
+    },
+    {
+      name: "The Final Kraut Down",
+      episode: "Season 2, Episode 7: Moody Foodie",
+      description: "An all-beef patty topped with tangy homemade sauerkraut, Swiss cheese, and a dollop of Dijon mustard for a bold, flavorful experience.",
+      ingredients: [
+        "1 lb ground beef",
+        "4 slices Swiss cheese",
+        "1 cup sauerkraut (store-bought or homemade)",
+        "4 burger buns",
+        "Dijon mustard",
+        "Butter or oil for toasting buns",
+        "Salt and pepper"
+      ],
+      steps: [
+        "Preheat a skillet over medium heat. Shape the ground beef into four patties, seasoning each with salt and pepper.",
+        "Cook the patties in the skillet until desired doneness, about 4-5 minutes per side. In the last minute, place a slice of Swiss cheese on each patty to melt.",
+        "In a separate pan, lightly toast the buns with a small amount of butter or oil until golden.",
+        "Warm the sauerkraut briefly in a small saucepan or microwave until heated through.",
+        "To assemble: Spread Dijon mustard on the bottom bun, place the patty with melted Swiss cheese on top, add a generous helping of sauerkraut, and finish with the top bun.",
+        "Serve immediately for maximum flavor!"
+      ],
+      image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1731285892/The_Final_Kraut_Down_vaoskw.png",
+      servingSize: 4
+    },
+    {
+      name: "Bruschetta Bout It Burger",
+      episode: "Season 2, Episode 9: Beefsquatch",
+      description: "A Mediterranean-inspired burger with a fresh bruschetta topping, creamy mozzarella, and a drizzle of balsamic glaze on a toasted ciabatta roll.",
+      ingredients: [
+        "1 lb ground beef",
+        "1 cup cherry tomatoes, diced",
+        "1/4 cup fresh basil, chopped",
+        "2 cloves garlic, minced",
+        "1 tbsp olive oil",
+        "4 slices fresh mozzarella",
+        "4 ciabatta rolls",
+        "Balsamic glaze (store-bought or homemade)",
+        "Salt and pepper"
+      ],
+      steps: [
+        "In a bowl, combine diced cherry tomatoes, chopped basil, minced garlic, and olive oil. Season with salt and pepper and set aside to let flavors meld.",
+        "Shape ground beef into four patties and season with salt and pepper. Cook patties in a skillet over medium heat until desired doneness, about 4-5 minutes per side.",
+        "Place a slice of fresh mozzarella on each patty in the last minute of cooking to melt.",
+        "Toast the ciabatta rolls in the skillet or oven until golden brown.",
+        "To assemble: Place the patty with melted mozzarella on the bottom half of each roll, top with a generous spoonful of bruschetta mixture, and drizzle with balsamic glaze. Add the top half of the roll to complete the burger.",
+        "Serve warm and enjoy the vibrant, fresh flavors!"
+      ],
+      image: "https://res.cloudinary.com/dxbdiw4c7/image/upload/v1731285867/Brushetta_Bout_It_Burger_bjkgtx.png",
+      servingSize: 4
     }
+    
       
     
   ];
